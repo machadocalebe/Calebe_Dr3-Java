@@ -3,14 +3,14 @@ class Livro {
     private final String autor;
     private final int anoPublicacao;
 
-    // Construtor
+
     public Livro(String titulo, String autor, int anoPublicacao) {
         this.titulo = titulo;
         this.autor = autor;
         this.anoPublicacao = anoPublicacao;
     }
 
-    // Getters e Setters omitidos
+    
 
     // Método para obter informações do livro
     public String getInfoLivro() {
@@ -20,7 +20,7 @@ class Livro {
 
 public class Main {
     public static void main(String[] args) {
-        // Exemplo de instâncias de objetos Livro para testar diferentes cenários
+        
         Livro livro1 = new Livro("Dom Casmurro", "Machado de Assis", 1899); // Livro disponível
         Livro livro2 = new Livro("Harry Potter", "J.K. Rowling", 1997); // Livro indisponível
         Livro livro3 = new Livro("Longo Título Longo Título Longo Título", "Autor Longo Autor Longo", 2000); // Título e autor longos
